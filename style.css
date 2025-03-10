@@ -1,0 +1,202 @@
+
+
+.navbar {
+  display: flex;
+  
+  background-color: #000563;
+  margin: -8px;
+  max-height: 65px;
+  justify-content: space-between;
+  color: white;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+  font-family: "Consolas";
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.midnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000563;
+  position: relative;
+  gap: 15px;
+  max-width: 50%;
+  font-family: "Consolas";
+  
+}
+
+.rightnav {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+  max-width: 25%;
+}
+
+img[alt~="profile"] {
+  border-radius: 10px;
+  width: 25px;
+}
+
+img[alt~="icon"] {
+  max-width: 40px;
+  aspect-ratio: 1/1;
+}
+img[alt~="icon2"] {
+  max-width: 40px;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
+
+.levelbar {
+  background-color: #83dde0;
+  width: 175px;
+  border-radius: 3px;
+  height: 30px;
+  border-left: #379ba8;
+  border-style: solid;
+  border-width: 10px;
+  border-right: #83dde0;
+  border-bottom: #83dde0;
+  border-top: #83dde0;
+}
+
+.levelbar a {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  background-color: rgba(123, 123, 192, 0);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  font-size: large;
+}
+
+button:hover {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  color: #59bc8d;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  font-size: large;
+}
+
+.credits {
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+/*nu begint alle content in de pagina*/
+
+h1 {
+  position: relative;
+  font-family: "Consolas";
+  font-size: xx-large;
+  display: flex;
+  left: 320px;
+  top: 10px;
+  align-items: center;
+}
+
+.table-container {
+  display: flex;
+  margin-left: 300px;
+  width: 100%;
+  max-width: 900px;
+  background: white;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Consolas";
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: grey;
+}
+
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.btn {
+  padding: 8px 12px;
+  border-radius: 5px;
+  max-width: 75px;
+  background-color: #54be8e;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background-color: #54be8e;
+  color: white;
+}
+
+/*nu de informatie over 1:1's*/
+
+.over-container {
+  display: flex;
+  background-color: rgb(255, 255, 255) ;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 1300px;
+  width: 300px;
+  height: 500px;
+  margin-top: -300px;
+  
+}
+
+h2 {
+  margin-left: 30px;
+  
+  font-size: xx-large;
+  color: rgb(59, 53, 53);
+  font-family: "Consolas";
+}
+
+h3 {
+  display: flex;
+  max-width: 230px;
+  margin-left: 30px;
+  max-height: 250px;
+  font-family: "Consolas";
+  font-size: large;
+  color: rgb(128, 128, 128);
+  
+}
+
+img[alt~="growth"] {
+  margin-left: 30px;
+  
+  max-width: 240px;
+  
+}
